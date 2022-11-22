@@ -1,0 +1,69 @@
+/* Common */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: nomal;
+  font-weight: 600;
+  line-height: 14px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.5;
+}
+/* First-nav */
+header.first-nav {
+  background-color: #273c72;
+  width: 1440px;
+  height: 50px;
+  margin-bottom: 127px;
+}
+header ul.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 19px 516px 17px 515px;
+}
+header a {
+  color: rgba(255, 255, 255, 0.8);
+}
+header a.nav-about {
+  color: #ffffff;
+}
+
+/* Second-nav */
+section.second-nav {
+  background-color: #e8eeff;
+  width: 1440px;
+  height: 50px;
+}
+section .second-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 19px 220px 17px 220px;
+}
+section ul.sub-nav {
+  width: 100%;
+  display: flex;
+}
+section ul li {
+  margin: 0 0 0 78px;
+}
+section .second-wrapper a {
+  color: rgba(0, 0, 0, 0.8);
+}
+section .second-wrapper a.color {
+  color: #000000;
+}
+section ul li a::before {
+  content: "";
+  width: 0px;
+  height: 17px;
+  top: 17.5px;
+  left: 36px;
+  border: 0.5px solid #000000;
+}
+section ul li a:first-child::before {
+  /* display: none; */
+}
+/* before ""의 위치를 못잡겠습니다... About 앞에 선도 display: none을 하면 다 없어져버려요ㅜㅜ */
